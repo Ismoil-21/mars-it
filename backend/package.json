@@ -1,7 +1,7 @@
 {
   "name": "mars-it-backend",
   "version": "1.0.0",
-  "description": "Mars IT School — Node.js backend",
+  "description": "Mars IT School — Node.js backend + Telegram bot",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
@@ -12,7 +12,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "node-fetch": "^3.3.2"
+    "node-telegram-bot-api": "^0.66.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
