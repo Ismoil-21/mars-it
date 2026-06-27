@@ -1,0 +1,40 @@
+export default {
+  n: 5,
+  nameUZ: 'Sergeli',
+  nameRU: 'Сергели',
+  titleUZ: "Dasturlash kurslari Sergelida",
+  titleRU: "Курсы программирования в Сергели",
+  descUZ: "Sergeli tumani, Sug'diyona mahallasi. Zamonaviy jihozlangan IT markazi — tajribali o'qituvchilar bilan.",
+  descRU: "Сергелийский р-н, мкр. Сугдиёна. Современный IT-центр с опытными преподавателями.",
+  phone: "+998 78 777 77 55",
+  hoursUZ: "Du-Sha: 09:00–20:00",
+  hoursRU: "Пн-Сб: 09:00–20:00",
+  addrUZ: "Toshkent sh, Sergeli tumani, Sug'diyona mahallasi.",
+  addrRU: "г. Ташкент, Сергелийский р-н, мкр. Сугдиёна.",
+  landmarkUZ: "Mo'ljal: \"Besh Qozon\" ro'parasida.",
+  landmarkRU: "Ориентир: напротив «Беш Козон».",
+  area: '360 m²',
+  classrooms: 10,
+  computers: 35,
+  mapQuery: "41.2285,69.2195",
+  coursesUZ: [
+    { age: '7-11 yosh', name: 'Scratch & Roblox', desc: "Vizual dasturlash, o'yinlar yaratish va mantiqiy fikrlash asoslari.", price: "1 090 000 so'm/oy" },
+    { age: '12-16 yosh', name: 'Python & Web', desc: "Python dasturlash, HTML/CSS/JavaScript, veb-saytlar yaratish.", price: "1 090 000 so'm/oy" },
+    { age: '15-17 yosh', name: 'Advanced CS', desc: "Murakkab algoritmlar, full-stack development va IT loyihalar.", price: "1 090 000 so'm/oy" },
+  ],
+  coursesRU: [
+    { age: '7-11 лет', name: 'Scratch & Roblox', desc: 'Визуальное программирование, создание игр и логическое мышление.', price: '1 090 000 сум/мес' },
+    { age: '12-16 лет', name: 'Python & Web', desc: 'Python, HTML/CSS/JavaScript, создание веб-сайтов.', price: '1 090 000 сум/мес' },
+    { age: '15-17 лет', name: 'Advanced CS', desc: 'Алгоритмы, структуры данных, full-stack разработка.', price: '1 090 000 сум/мес' },
+  ],
+  advantagesUZ: [
+    { icon: '💻', title: '35 ta kompyuter', desc: "Har bir o'quvchiga alohida zamonaviy kompyuter." },
+    { icon: '🏫', title: '10 ta sinfxona', desc: "Qulay va yorug' sinfxonalar kichik guruhlarga mo'ljallangan." },
+    { icon: '📍', title: 'Qulay joylashuv', desc: '"Besh Qozon" ro\'parasida, Sug\'diyona mahallasida.' },
+  ],
+  advantagesRU: [
+    { icon: '💻', title: '35 компьютеров', desc: 'Каждому ученику — отдельный современный компьютер.' },
+    { icon: '🏫', title: '10 классов', desc: 'Уютные и светлые классы для небольших групп.' },
+    { icon: '📍', title: 'Удобное расположение', desc: 'Напротив «Беш Козон», в мкр. Сугдиёна.' },
+  ]
+}

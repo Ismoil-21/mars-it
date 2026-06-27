@@ -1,0 +1,182 @@
+{
+  "registrations": [
+    {
+      "id": 1782466546552,
+      "source": "bot",
+      "lang": "uz",
+      "name": "Mirzohid",
+      "phone": "+998903544499",
+      "age": "16",
+      "branch": "1-FILIAL",
+      "course": "💻 DASTURLASH",
+      "createdAt": "2026-06-26T09:35:46.552Z"
+    },
+    {
+      "id": 1782466691570,
+      "source": "bot",
+      "lang": "uz",
+      "name": "mmm",
+      "phone": "+998910042565",
+      "age": "636",
+      "branch": "1-FILIAL",
+      "course": "💻 DASTURLASH",
+      "createdAt": "2026-06-26T09:38:11.570Z"
+    },
+    {
+      "id": 1782466776071,
+      "source": "test",
+      "lang": "uz",
+      "name": "Mirzohid Shermanov",
+      "phone": "",
+      "recommendation": "backend",
+      "frontendScore": 15,
+      "backendScore": 174,
+      "strongAreas": [
+        {
+          "key": "detail",
+          "raw": 11,
+          "percent": 100
+        },
+        {
+          "key": "patience",
+          "raw": 8,
+          "percent": 73
+        },
+        {
+          "key": "creativity",
+          "raw": 1,
+          "percent": 9
+        },
+        {
+          "key": "logic",
+          "raw": 0,
+          "percent": 0
+        },
+        {
+          "key": "communication",
+          "raw": 0,
+          "percent": 0
+        },
+        {
+          "key": "math",
+          "raw": 0,
+          "percent": 0
+        },
+        {
+          "key": "visual",
+          "raw": 0,
+          "percent": 0
+        },
+        {
+          "key": "social",
+          "raw": 0,
+          "percent": 0
+        }
+      ],
+      "createdAt": "2026-06-26T09:39:36.071Z"
+    },
+    {
+      "id": 1782466818961,
+      "source": "test",
+      "lang": "ru",
+      "name": "Mirzohid Shermanov",
+      "phone": "",
+      "recommendation": "backend",
+      "frontendScore": 10,
+      "backendScore": 174,
+      "strongAreas": [
+        {
+          "key": "detail",
+          "raw": 11,
+          "percent": 100
+        },
+        {
+          "key": "patience",
+          "raw": 8,
+          "percent": 73
+        },
+        {
+          "key": "communication",
+          "raw": 1,
+          "percent": 9
+        },
+        {
+          "key": "creativity",
+          "raw": 0,
+          "percent": 0
+        },
+        {
+          "key": "logic",
+          "raw": 0,
+          "percent": 0
+        },
+        {
+          "key": "math",
+          "raw": 0,
+          "percent": 0
+        },
+        {
+          "key": "visual",
+          "raw": 0,
+          "percent": 0
+        },
+        {
+          "key": "social",
+          "raw": 0,
+          "percent": 0
+        }
+      ],
+      "createdAt": "2026-06-26T09:40:18.961Z"
+    },
+    {
+      "id": 1782466852646,
+      "source": "bot",
+      "lang": "uz",
+      "name": "Toxir",
+      "phone": "+998903544499",
+      "age": "188",
+      "branch": "1-FILIAL",
+      "course": "🧒 IT KIDS",
+      "createdAt": "2026-06-26T09:40:52.646Z"
+    },
+    {
+      "id": 1782467124943,
+      "source": "bot",
+      "lang": "uz",
+      "name": "qw2ewf",
+      "phone": "+998903544499",
+      "age": "12",
+      "branch": "1-FILIAL",
+      "course": "🧒 IT KIDS",
+      "createdAt": "2026-06-26T09:45:24.943Z"
+    },
+    {
+      "id": 1782469031683,
+      "source": "web",
+      "lang": "uz",
+      "name": "Mirzohid Shermanov",
+      "phone": "+998889991234",
+      "course": "Bosh sahifa",
+      "createdAt": "2026-06-26T10:17:11.683Z"
+    },
+    {
+      "id": 1782469123718,
+      "source": "web",
+      "lang": "uz",
+      "name": "Mirzohid Shermanov",
+      "phone": "+998890129387",
+      "course": "",
+      "createdAt": "2026-06-26T10:18:43.718Z"
+    },
+    {
+      "id": 1782469148793,
+      "source": "web",
+      "lang": "uz",
+      "name": "Mirzohid Shermanov",
+      "phone": "+998768909876",
+      "course": "",
+      "createdAt": "2026-06-26T10:19:08.793Z"
+    }
+  ],
+  "users": {}
+}

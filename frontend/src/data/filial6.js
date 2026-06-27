@@ -1,0 +1,40 @@
+export default {
+  n: 6,
+  nameUZ: 'Mirobod',
+  nameRU: 'Мирабад',
+  titleUZ: "Dasturlash kurslari Mirobodda",
+  titleRU: "Курсы программирования в Мирабаде",
+  descUZ: "Mirobod tumani, Taras Shevchenko ko'chasi, 24. Oybek metro bekati va 110-maktab yaqinida qulay filial.",
+  descRU: "Мирабадский р-н, ул. Тараса Шевченко, 24. Удобный филиал рядом со ст. м. Ойбек и школой №110.",
+  phone: "+998 78 777 77 56",
+  hoursUZ: "Du-Sha: 09:00–20:00",
+  hoursRU: "Пн-Сб: 09:00–20:00",
+  addrUZ: "Toshkent sh, Mirobod tumani, Taras Shevchenko ko'chasi, 24, 1.",
+  addrRU: "г. Ташкент, Мирабадский р-н, ул. Тараса Шевченко, 24, 1.",
+  landmarkUZ: "Mo'ljal: \"Oybek\" metro bekati yoki 110-maktab yaqinida.",
+  landmarkRU: "Ориентир: рядом со ст. м. Ойбек или школой №110.",
+  area: '400 m²',
+  classrooms: 12,
+  computers: 38,
+  mapQuery: "41.3014,69.2755",
+  coursesUZ: [
+    { age: '7-11 yosh', name: 'Scratch & Roblox', desc: "Vizual dasturlash, o'yinlar yaratish va mantiqiy fikrlash asoslari.", price: "1 090 000 so'm/oy" },
+    { age: '12-16 yosh', name: 'Python & Web', desc: "Python dasturlash, HTML/CSS/JavaScript, veb-saytlar yaratish.", price: "1 090 000 so'm/oy" },
+    { age: '15-17 yosh', name: 'Advanced CS', desc: "Murakkab algoritmlar, full-stack development va IT loyihalar.", price: "1 090 000 so'm/oy" },
+  ],
+  coursesRU: [
+    { age: '7-11 лет', name: 'Scratch & Roblox', desc: 'Визуальное программирование, создание игр и логическое мышление.', price: '1 090 000 сум/мес' },
+    { age: '12-16 лет', name: 'Python & Web', desc: 'Python, HTML/CSS/JavaScript, создание веб-сайтов.', price: '1 090 000 сум/мес' },
+    { age: '15-17 лет', name: 'Advanced CS', desc: 'Алгоритмы, структуры данных, full-stack разработка.', price: '1 090 000 сум/мес' },
+  ],
+  advantagesUZ: [
+    { icon: '💻', title: '38 ta kompyuter', desc: "Har bir o'quvchiga alohida zamonaviy kompyuter." },
+    { icon: '🏫', title: '12 ta sinfxona', desc: "Qulay va yorug' sinfxonalar kichik guruhlarga mo'ljallangan." },
+    { icon: '📍', title: 'Qulay joylashuv', desc: '"Oybek" metro bekati va 110-maktab yaqinida.' },
+  ],
+  advantagesRU: [
+    { icon: '💻', title: '38 компьютеров', desc: 'Каждому ученику — отдельный современный компьютер.' },
+    { icon: '🏫', title: '12 классов', desc: 'Уютные и светлые классы для небольших групп.' },
+    { icon: '📍', title: 'Удобное расположение', desc: 'Рядом со ст. м. Ойбек и школой №110.' },
+  ]
+}

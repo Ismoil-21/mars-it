@@ -1,0 +1,40 @@
+export default {
+  n: 1,
+  nameUZ: 'Tinchlik',
+  nameRU: 'Тинчлик',
+  titleUZ: "Dasturlash kurslari Tinchlikda",
+  titleRU: "Курсы программирования в Тинчлике",
+  descUZ: "Beruniy ko'chasi 35A, Tinchlik metro bekati yaqinida. 10 ta zamonaviy sinfxona, 40 ta kompyuter — bolangizga eng yaxshi IT ta'lim.",
+  descRU: "ул. Беруний 35А, рядом со ст. м. Тинчлик. 10 современных классов, 40 компьютеров — лучшее IT-образование для вашего ребёнка.",
+  phone: "+998 78 777 77 51",
+  hoursUZ: "Du-Sha: 09:00–20:00",
+  hoursRU: "Пн-Сб: 09:00–20:00",
+  addrUZ: "Toshkent sh, Beruniy ko'chasi 35A, Tinchlik metro bekati.",
+  addrRU: "г. Ташкент, ул. Беруний 35А, ст. м. Тинчлик.",
+  landmarkUZ: "Mo'ljal: \"Bursa\" restorani yonida.",
+  landmarkRU: "Ориентир: рядом с рестораном «Bursa».",
+  area: '420 m²',
+  classrooms: 10,
+  computers: 40,
+  mapQuery: "41.3347,69.2130",
+  coursesUZ: [
+    { age: '7-11 yosh', name: 'Scratch & Roblox', desc: "Vizual dasturlash, o'yinlar yaratish va mantiqiy fikrlash asoslari.", price: "1 090 000 so'm/oy" },
+    { age: '12-16 yosh', name: 'Python & Web', desc: "Python dasturlash, HTML/CSS/JavaScript, veb-saytlar yaratish.", price: "1 090 000 so'm/oy" },
+    { age: '15-17 yosh', name: 'Advanced CS', desc: "Murakkab algoritmlar, full-stack development va IT loyihalar.", price: "1 090 000 so'm/oy" },
+  ],
+  coursesRU: [
+    { age: '7-11 лет', name: 'Scratch & Roblox', desc: 'Визуальное программирование, создание игр и логическое мышление.', price: '1 090 000 сум/мес' },
+    { age: '12-16 лет', name: 'Python & Web', desc: 'Python, HTML/CSS/JavaScript, создание веб-сайтов.', price: '1 090 000 сум/мес' },
+    { age: '15-17 лет', name: 'Advanced CS', desc: 'Алгоритмы, структуры данных, full-stack разработка.', price: '1 090 000 сум/мес' },
+  ],
+  advantagesUZ: [
+    { icon: '💻', title: '40 ta kompyuter', desc: "Har bir o'quvchiga alohida zamonaviy kompyuter." },
+    { icon: '🏫', title: '10 ta sinfxona', desc: "Qulay va yorug' sinfxonalar kichik guruhlarga mo'ljallangan." },
+    { icon: '📍', title: 'Qulay joylashuv', desc: 'Tinchlik metro bekati va "Bursa" restoran yaqinida.' },
+  ],
+  advantagesRU: [
+    { icon: '💻', title: '40 компьютеров', desc: 'Каждому ученику — отдельный современный компьютер.' },
+    { icon: '🏫', title: '10 классов', desc: 'Уютные и светлые классы для небольших групп.' },
+    { icon: '📍', title: 'Удобное расположение', desc: 'Рядом со ст. м. Тинчлик и рестораном «Bursa».' },
+  ]
+}

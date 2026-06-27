@@ -1,0 +1,40 @@
+export default {
+  n: 2,
+  nameUZ: 'Yunusobod',
+  nameRU: 'Юнусабад',
+  titleUZ: "Dasturlash kurslari Yunusobodda",
+  titleRU: "Курсы программирования в Юнусабаде",
+  descUZ: "Yangishahar ko'chasi 10, Kosmonavtlar Yunusobod yaqinida. 18 ta zamonaviy sinfxona, 40 ta kompyuter — bolangizga eng yaxshi IT ta'lim.",
+  descRU: "ул. Новый город 10, рядом с Юнусабадом. 18 современных классов, 40 компьютеров — лучшее IT-образование для вашего ребёнка.",
+  phone: "+998 78 777 77 57",
+  hoursUZ: "Du-Sha: 09:00–20:00",
+  hoursRU: "Пн-Сб: 09:00–20:00",
+  addrUZ: "Toshkent sh, Yunusobod tumani, Yangishahar 10.",
+  addrRU: "г. Ташкент, Юнусабадский р-н, Новый город 10.",
+  landmarkUZ: "Mo'ljal: \"Mega Planet\" yaqinida.",
+  landmarkRU: "Ориентир: рядом с «Mega Planet».",
+  area: '440 m²',
+  classrooms: 18,
+  computers: 40,
+  mapQuery: "41.3668,69.2842",
+  coursesUZ: [
+    { age: '7-11 yosh', name: 'Scratch & Roblox', desc: "Vizual dasturlash, o'yinlar yaratish va mantiqiy fikrlash asoslari.", price: "1 090 000 so'm/oy" },
+    { age: '12-16 yosh', name: 'Python & Web', desc: "Python dasturlash, HTML/CSS/JavaScript, veb-saytlar yaratish.", price: "1 090 000 so'm/oy" },
+    { age: '15-17 yosh', name: 'Advanced CS', desc: "Murakkab algoritmlar, full-stack development va IT loyihalar.", price: "1 090 000 so'm/oy" },
+  ],
+  coursesRU: [
+    { age: '7-11 лет', name: 'Scratch & Roblox', desc: 'Визуальное программирование, создание игр и логическое мышление.', price: '1 090 000 сум/мес' },
+    { age: '12-16 лет', name: 'Python & Web', desc: 'Python, HTML/CSS/JavaScript, создание веб-сайтов.', price: '1 090 000 сум/мес' },
+    { age: '15-17 лет', name: 'Advanced CS', desc: 'Алгоритмы, структуры данных, full-stack разработка.', price: '1 090 000 сум/мес' },
+  ],
+  advantagesUZ: [
+    { icon: '💻', title: '40 ta kompyuter', desc: "Har bir o'quvchiga alohida zamonaviy kompyuter." },
+    { icon: '🏫', title: '18 ta sinfxona', desc: "Keng va yorug' sinfxonalar kichik guruhlarga mo'ljallangan." },
+    { icon: '📍', title: 'Qulay joylashuv', desc: '"Mega Planet" savdo markazi yaqinida.' },
+  ],
+  advantagesRU: [
+    { icon: '💻', title: '40 компьютеров', desc: 'Каждому ученику — отдельный современный компьютер.' },
+    { icon: '🏫', title: '18 классов', desc: 'Просторные и светлые классы для небольших групп.' },
+    { icon: '📍', title: 'Удобное расположение', desc: 'Рядом с ТЦ «Mega Planet».' },
+  ]
+}

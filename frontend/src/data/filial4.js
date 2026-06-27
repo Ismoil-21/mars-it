@@ -1,0 +1,40 @@
+export default {
+  n: 4,
+  nameUZ: "Mirzo-Ulug'bek",
+  nameRU: 'Мирзо-Улугбек',
+  titleUZ: "Dasturlash kurslari Mirzo-Ulug'bekda",
+  titleRU: "Курсы программирования в Мирзо-Улугбеке",
+  descUZ: "Buyuk Ipak yo'li, 152/1 — Mirzo-Ulug'bek tumani markazida. Zamonaviy jihozlangan 4-etaj IT markazi.",
+  descRU: "Великий шёлковый путь, 152/1 — в центре района. Современный IT-центр на 4 этаже.",
+  phone: "+998 78 777 77 54",
+  hoursUZ: "Du-Sha: 09:00–20:00",
+  hoursRU: "Пн-Сб: 09:00–20:00",
+  addrUZ: "Toshkent sh, Mirzo-Ulug'bek tumani, Buyuk Ipak yo'li, 152/1.",
+  addrRU: "г. Ташкент, Мирзо-Улугбекский р-н, Великий шёлковый путь, 152/1.",
+  landmarkUZ: "Mo'ljal: \"Soul\" cafe, 4-etaj.",
+  landmarkRU: "Ориентир: кафе «Soul», 4 этаж.",
+  area: '460 m²',
+  classrooms: 14,
+  computers: 42,
+  mapQuery: "41.3269,69.3367",
+  coursesUZ: [
+    { age: '7-11 yosh', name: 'Scratch & Roblox', desc: "Vizual dasturlash, o'yinlar yaratish va mantiqiy fikrlash asoslari.", price: "1 090 000 so'm/oy" },
+    { age: '12-16 yosh', name: 'Python & Web', desc: "Python dasturlash, HTML/CSS/JavaScript, veb-saytlar yaratish.", price: "1 090 000 so'm/oy" },
+    { age: '15-17 yosh', name: 'Advanced CS', desc: "Murakkab algoritmlar, full-stack development va IT loyihalar.", price: "1 090 000 so'm/oy" },
+  ],
+  coursesRU: [
+    { age: '7-11 лет', name: 'Scratch & Roblox', desc: 'Визуальное программирование, создание игр и логическое мышление.', price: '1 090 000 сум/мес' },
+    { age: '12-16 лет', name: 'Python & Web', desc: 'Python, HTML/CSS/JavaScript, создание веб-сайтов.', price: '1 090 000 сум/мес' },
+    { age: '15-17 лет', name: 'Advanced CS', desc: 'Алгоритмы, структуры данных, full-stack разработка.', price: '1 090 000 сум/мес' },
+  ],
+  advantagesUZ: [
+    { icon: '💻', title: '42 ta kompyuter', desc: "Har bir o'quvchiga alohida zamonaviy kompyuter." },
+    { icon: '🏫', title: '14 ta sinfxona', desc: "Keng va yorug' sinfxonalar kichik guruhlarga mo'ljallangan." },
+    { icon: '📍', title: 'Qulay joylashuv', desc: "Buyuk Ipak yo'li, \"Soul\" cafe yaqinida, 4-etaj." },
+  ],
+  advantagesRU: [
+    { icon: '💻', title: '42 компьютера', desc: 'Каждому ученику — отдельный современный компьютер.' },
+    { icon: '🏫', title: '14 классов', desc: 'Просторные и светлые классы для небольших групп.' },
+    { icon: '📍', title: 'Удобное расположение', desc: 'Шёлковый путь, рядом с кафе «Soul», 4 этаж.' },
+  ]
+}

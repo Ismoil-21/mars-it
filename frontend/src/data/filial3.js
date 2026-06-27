@@ -1,0 +1,40 @@
+export default {
+  n: 3,
+  nameUZ: 'Chilonzor',
+  nameRU: 'Чиланзар',
+  titleUZ: "Dasturlash kurslari Chilonzorda",
+  titleRU: "Курсы программирования в Чиланзаре",
+  descUZ: "Chilonzor tumani, 8-kvartal, 2-uy. Zamonaviy jihozlangan sinfxonalar va tajribali o'qituvchilar bilan IT dunyosiga qadam qo'ying.",
+  descRU: "Чиланзарский р-н, 8 кв., д. 2. Шагните в мир IT с современными классами и опытными преподавателями.",
+  phone: "+998 78 777 77 53",
+  hoursUZ: "Du-Sha: 09:00–20:00",
+  hoursRU: "Пн-Сб: 09:00–20:00",
+  addrUZ: "Toshkent sh, Chilonzor tumani, 8-kvartal, 2-uy.",
+  addrRU: "г. Ташкент, Чиланзарский р-н, 8 кв., д. 2.",
+  landmarkUZ: "Mo'ljal: \"Rayxon\" milliy taomlari yaqinida.",
+  landmarkRU: "Ориентир: рядом с «Rayxon» национальная кухня.",
+  area: '380 m²',
+  classrooms: 12,
+  computers: 36,
+  mapQuery: "41.2873,69.2029",
+  coursesUZ: [
+    { age: '7-11 yosh', name: 'Scratch & Roblox', desc: "Vizual dasturlash, o'yinlar yaratish va mantiqiy fikrlash asoslari.", price: "1 090 000 so'm/oy" },
+    { age: '12-16 yosh', name: 'Python & Web', desc: "Python dasturlash, HTML/CSS/JavaScript, veb-saytlar yaratish.", price: "1 090 000 so'm/oy" },
+    { age: '15-17 yosh', name: 'Advanced CS', desc: "Murakkab algoritmlar, full-stack development va IT loyihalar.", price: "1 090 000 so'm/oy" },
+  ],
+  coursesRU: [
+    { age: '7-11 лет', name: 'Scratch & Roblox', desc: 'Визуальное программирование, создание игр и логическое мышление.', price: '1 090 000 сум/мес' },
+    { age: '12-16 лет', name: 'Python & Web', desc: 'Python, HTML/CSS/JavaScript, создание веб-сайтов.', price: '1 090 000 сум/мес' },
+    { age: '15-17 лет', name: 'Advanced CS', desc: 'Алгоритмы, структуры данных, full-stack разработка.', price: '1 090 000 сум/мес' },
+  ],
+  advantagesUZ: [
+    { icon: '💻', title: '36 ta kompyuter', desc: "Har bir o'quvchiga alohida zamonaviy kompyuter." },
+    { icon: '🏫', title: '12 ta sinfxona', desc: "Qulay va yorug' sinfxonalar kichik guruhlarga mo'ljallangan." },
+    { icon: '📍', title: 'Qulay joylashuv', desc: '"Rayxon" milliy taomlari va 8-kvartal markazida.' },
+  ],
+  advantagesRU: [
+    { icon: '💻', title: '36 компьютеров', desc: 'Каждому ученику — отдельный современный компьютер.' },
+    { icon: '🏫', title: '12 классов', desc: 'Уютные и светлые классы для небольших групп.' },
+    { icon: '📍', title: 'Удобное расположение', desc: 'В центре 8 квартала, рядом с «Rayxon».' },
+  ]
+}
