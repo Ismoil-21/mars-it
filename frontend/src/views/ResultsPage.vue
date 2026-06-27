@@ -3,7 +3,7 @@ import { computed, ref, onMounted, inject } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import marsLogo from '../assets/mars-logo.png'
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001'
+const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001'
 
 const route  = useRoute()
 const router = useRouter()

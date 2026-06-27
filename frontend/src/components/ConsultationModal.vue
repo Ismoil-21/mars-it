@@ -13,7 +13,7 @@ const lang = inject('lang')
 const { t } = useTranslation(lang)
 const isRU = computed(() => lang?.value === 'RU')
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001'
+const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001'
 
 const name = ref('')
 const surname = ref('')
